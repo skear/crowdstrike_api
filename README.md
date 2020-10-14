@@ -18,7 +18,7 @@ To enable logging, use [loguru](https://github.com/Delgan/loguru) and run `logge
 
 ```create = falcon_client.iocs_create(policy = "detect", type = "domain", value = "mydomain.com")```
 
-### Create an IOC
+### Get an IOC
 
 ```get = falcon_client.iocs_get(type = "domain", value = "mytest.com")```
 
