@@ -24,6 +24,7 @@ from .incidents import incidents_behaviors_by_id, incidents_get_crowdscores, inc
 from .detects import get_detects, get_detections
 from .rtr import create_rtr_session, delete_rtr_session
 from .rtr_admin import search_rtr_scripts, get_rtr_scripts
+from .iocs import iocs_create, iocs_get, iocs_delete
 
 API_BASEURL = "https://api.crowdstrike.com"
 
@@ -144,3 +145,8 @@ class CrowdstrikeAPI:
     #rtr_admin
     search_rtr_scripts = search_rtr_scripts
     get_rtr_scripts = get_rtr_scripts
+
+    #iocs
+    iocs_create = iocs_create
+    iocs_get = iocs_get
+    iocs_delete = iocs_delete

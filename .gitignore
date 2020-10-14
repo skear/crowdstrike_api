@@ -7,3 +7,5 @@ build/
 dist/
 swagger.json
 .pytest_cache
+.idea/
+test.py
