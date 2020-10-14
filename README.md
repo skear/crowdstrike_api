@@ -16,12 +16,12 @@ To enable logging, use [loguru](https://github.com/Delgan/loguru) and run `logge
 
 ### Create an IOC
 
-'''create = falcon_client.iocs_create(policy = "detect", type = "domain", value = "mydomain.com")'''
+```create = falcon_client.iocs_create(policy = "detect", type = "domain", value = "mydomain.com")```
 
 ### Create an IOC
 
-'''get = falcon_client.iocs_get(type = "domain", value = "mytest.com")'''
+```get = falcon_client.iocs_get(type = "domain", value = "mytest.com")```
 
 ### Delete an IOC
 
-'''delete = falcon_client.iocs_delete(type = "domain", value = "mydomain.com")'''
+```delete = falcon_client.iocs_delete(type = "domain", value = "mydomain.com")```
